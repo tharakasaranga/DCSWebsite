@@ -1,0 +1,137 @@
+<html>
+    <head>
+        <link rel = "stylesheet" href = "DCS.css">
+
+    </head>
+
+    <body>
+    <div class = "headings">
+        <div style = "display:flex; margin-left: 10%;margin-right: 10%;">
+            <div><a href = "#">HOME</a></div>
+            <div><a href = "#">ABOUT</a></div>
+            <div><a href = "#">ACADEMIC</a></div>
+            <div><a href = "#">STUDENT</a></div>
+            <div><a href = "#">LIBRARY</a></div>
+            <div><a href = "#">RESEARCH</a></div>
+            <div><a href = "#">EVENTS</a></div>
+            <div><a href = "#">CONTACT</a></div>
+        </div>
+    </div>
+    <div class = "mainpart">
+       <div style = "display: flex; width:100%;">
+            <div style = "width:50%;">
+                <img src="uoj.png">
+            </div>
+            <div style = "width: 50%; direction: rtl; margin-right: 0px;margin-bottom: 1%; ">
+                <br>
+                <a href = "#">UOJ MAIL  |</a>
+                <a href = "#">LMS  |</a>
+                <a href = "#">DOWNLOADS  |</a>
+                <a href = "#">DIRECTORY</a><br>
+                <input style = "width:53%; height:50%;" type = "text" placeholder="Search">
+            </div>
+       </div>
+       <div style = "width:100%;">
+            <img class="mySlides" src="uoja.jpg" style="width:100%">
+            <img class="mySlides" src="uojb.jpg" style="width:100%">
+            <img class="mySlides" src="uojc.jpg" style="width:100%">
+            <img class="mySlides" src="uojd.jpg" style="width:100%">
+        </div>
+        <script>
+            var myIndex = 0;
+            carousel();
+            
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {
+                  myIndex = 1
+              }    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 3000); // Change image every 2 seconds
+            }
+        </script>
+        
+        <div style = "display: flex; width: 100%; margin-top:4%; margin-bottom: 4%;">
+            <div style = "width:15%; margin:2%;">
+                <div><img style = "width:100%; border-radius: 100%;" src = "uojb.jpeg"></div>
+                <div><center>GOVERNANCE</center></div>
+            </div>
+            <div style = "width:15%; margin:2%;">
+                <div><img style = "width:100%; border-radius: 100%;" src = "uojb.jpeg"></div>
+                <div><center>WE-BE</center></div>
+            </div>
+            <div style = "width:15%; margin:2%;">
+                <div><img style = "width:100%; border-radius: 100%;" src = "uojb.jpeg"></div>
+                <div><center>CODL@UOJ</center></div>
+            </div>
+            <div style = "width:15%; margin:2%;">
+                <div><img style = "width:100%; border-radius: 100%;" src = "uojb.jpeg"></div>
+                <div><center>CQA</center></div>
+            </div>
+            <div style = "width:15%; margin:2%%; ">
+                <div><img style = "width:100%; border-radius: 100%;" src = "uojb.jpeg"></div>
+                <div><center>RAGGING COMPLAINT</center></div>
+            </div>
+            <div style = "width:15%; margin:2%;">
+                <div><img style = "width:100%; border-radius: 100%;" src = "uojb.jpeg"></div>
+                <div><center>CGEE</center></div>
+            </div>
+        </div>
+
+        <div class = "vismis">
+            <div style = "background-color: blue; width:38%;">
+                <div style = "margin:4%;">
+                <h3><b>VISION</b></h3><hr>
+                <p>To be a leading centre of excellence in teaching, learning, research and innovation, scholarship and community engagement</p>
+                </div>
+            </div>
+            <div style = "background-color: blue; width:60%; margin-left:2%;">
+                <div style = "margin:4%; text-align: justify;">
+                <h3><b>MISSION</b></h3><hr>
+                <p>To train intellectually and professionally competent graduates and postgraduates in alignment with current and emerging needs of the national and international community, engage in research and innovation and research commercialization, promote scholarship and engage with industry and community with a special emphasis on the social, economic and cultural needs of Northern Sri Lanka</p>
+                </div>
+            </div>
+        </div>
+
+        <div class = "news">
+            <div style = "background-color: black; width:33%;">
+                <div style = "margin:4%;">
+                    <h3><b>UNIVERSITY NEWS</b></h3><hr>
+                    <a href = "#">New building of the battery research laboratory opened in Physics</a><br>
+                    <a href = "#">UoJ Special Holiday- 2023 (Tamil Sinhala New Year) </a><br>
+                    <a href = "#">MoU signed with the University of Konstanz, Germany </a><br>
+                </div>
+            </div>
+            <div  style = "background-color: black; width:33%;">
+                <div style = "margin:4%;">
+                    <h3><b>UNIVERSITY NEWS</b></h3><hr>
+                    <a href = "#">New building of the battery research laboratory opened in Physics</a><br>
+                    <a href = "#">UoJ Special Holiday- 2023 (Tamil Sinhala New Year) </a><br>
+                    <a href = "#">MoU signed with the University of Konstanz, Germany </a><br>
+                </div>
+            </div>
+            <div  style = "background-color: black; width:33%;">
+                <div style = "margin:4%;">
+                    <h3><b>UNIVERSITY NEWS</b></h3><hr>
+                    <a href = "#">New building of the battery research laboratory opened in Physics</a><br>
+                    <a href = "#">UoJ Special Holiday- 2023 (Tamil Sinhala New Year) </a><br>
+                    <a href = "#">MoU signed with the University of Konstanz, Germany </a><br>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    
+    </div>
+
+    </body>
+
+</html>

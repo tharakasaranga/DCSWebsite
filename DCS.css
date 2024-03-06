@@ -1,0 +1,40 @@
+body{
+    background-color:black;
+    margin:0px;
+}
+.mainpart{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: black;
+}
+.headings{
+    background-color: darkblue;
+    width:100%;
+}
+.headings div div{
+    margin-left: 2.6%;
+    margin-right: 2.6%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color:white;
+}
+a:hover{
+    color:red;
+}
+
+.vismis{
+    display: flex;
+    width:100%;
+    background-color: none;
+}
+
+.news{
+    width:100%;
+    display: flex;
+    background-color: none;
+}

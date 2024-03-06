@@ -1,0 +1,38 @@
+body{
+    background-color:dimgrey;
+}
+
+.mainpart{
+    border:1px solid white;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: black;
+}
+
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color:white;
+}
+
+a:hover{
+    color:red;
+}
+
+.headings{
+    background-color:darkblue;
+    display:flex;
+    border:1px solid white;
+    width:100%;
+}
+.headings div{
+    margin:1%;
+}
+
+.mySlides {
+    display:none;
+}
+a.links{
+    color:blueviolet;
+}
